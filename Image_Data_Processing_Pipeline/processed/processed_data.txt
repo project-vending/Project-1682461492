@@ -1,0 +1,6 @@
+
+file_path = 'Image_Data_Processing_Pipeline/processed/processed_data.txt'
+
+with open(file_path, 'r') as file:
+    data = file.read()
+    print(data)
