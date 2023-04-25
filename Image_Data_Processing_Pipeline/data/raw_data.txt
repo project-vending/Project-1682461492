@@ -1,0 +1,6 @@
+
+# Open raw_data.txt file for writing
+with open('Image_Data_Processing_Pipeline/data/raw_data.txt', 'w') as file:
+    # Write some data to file
+    file.write('Hello, world!\n')
+    file.write('This is some example data.\n')
